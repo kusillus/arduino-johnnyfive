@@ -1,0 +1,20 @@
+{
+  "name": "johnnyfive_example",
+  "version": "1.0.0",
+  "description": "example use arduino with johnny five",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "arduino",
+    "johnny",
+    "five",
+    "javascript"
+  ],
+  "author": "kusillus",
+  "license": "ISC",
+  "dependencies": {
+    "johnny-five": "^1.0.0"
+  }
+}
