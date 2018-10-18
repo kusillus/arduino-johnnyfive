@@ -3,6 +3,12 @@ const board = new five.Board({
     "port": "COM3"
 });
 
+/*
+    Example img
+    http://johnny-five.io/img/breadboard/led-fade-callback.png
+*/
+
+
 board.on("ready", function() {
     const leds = new five.Leds([11,10,9]);
     const ledCount = leds.length;
